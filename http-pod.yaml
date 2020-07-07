@@ -45,7 +45,7 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: gaurav0417/http-server
+      - image: 9897829817/http:latest
         name: httpd
         ports:
         - containerPort: 8080
